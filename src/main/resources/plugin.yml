@@ -1,0 +1,14 @@
+name: JShell
+main: com.spleefleague.jshell.JShellInterpreter
+version: 1.0
+
+commands:
+  jshell:
+    description: Starts a Java REPL instance
+    permission: jshell.use
+
+permissions:
+  jshell.use:
+    default: op
+  jshell.modal:
+    default: true
